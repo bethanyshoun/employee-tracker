@@ -18,23 +18,23 @@ INSERT INTO roles (title, salary, departments_id)
 
 INSERT INTO employees (first_name, last_name, roles_id, manager_id)
     VALUES
-        ('Jill', 'Fraser', 1),
+        ('Jill', 'Fraser', 1, NULL),
         ('Jack', 'Smith', 2, 1),
         ('Rob', 'Edwards', 2, 1),
         ('Peter', 'Green', 2, 1),
         ('Sissy', 'Pitts', 2, 1),
         ('Sam', 'Johnson', 2, 1),
         ('Antoinette', 'Capone', 2, 1),
-        ('Danielle', 'Jefferies', 3),
+        ('Danielle', 'Jefferies', 3, NULL),
         ('Paolo', 'Pasolini', 4, 8),
         ('Heather', 'Williams', 4, 8),
         ('Sandy', 'Powell', 4, 8),
         ('Emily', 'Zola', 4, 8),
-        ('Samantha', 'Delaney', 5),
+        ('Samantha', 'Delaney', 5, NULL),
         ('Tony', 'Duval', 6, 14),
         ('Denise', 'Cooper', 6, 14),
         ('Monica', 'Bennet', 6, 14),
-        ('Aurora', 'Beardsley', 7),
+        ('Aurora', 'Beardsley', 7, NULL),
         ('Tomas', 'Rivera', 8, 18),
         ('Willa', 'Morris', 8, 18);
       
