@@ -5,8 +5,8 @@ const apiRoutes = require('./routes/apiRoutes');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-//cTable
-const cTable = require('console.table');
+// //cTable
+// const cTable = require('console.table');
 
 // Express middleware
 app.use(express.urlencoded({ extended: false }));

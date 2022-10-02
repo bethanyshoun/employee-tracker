@@ -31,11 +31,11 @@ INSERT INTO employees (first_name, last_name, roles_id, manager_id)
         ('Sandy', 'Powell', 4, 8),
         ('Emily', 'Zola', 4, 8),
         ('Samantha', 'Delaney', 5, NULL),
-        ('Tony', 'Duval', 6, 14),
-        ('Denise', 'Cooper', 6, 14),
-        ('Monica', 'Bennet', 6, 14),
+        ('Tony', 'Duval', 6, 13),
+        ('Denise', 'Cooper', 6, 13),
+        ('Monica', 'Bennet', 6, 13),
         ('Aurora', 'Beardsley', 7, NULL),
-        ('Tomas', 'Rivera', 8, 18),
-        ('Willa', 'Morris', 8, 18);
+        ('Tomas', 'Rivera', 8, 17),
+        ('Willa', 'Morris', 8, 17);
       
 
